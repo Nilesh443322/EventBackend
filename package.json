@@ -2,12 +2,12 @@
   "name": "back",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.cjs",
   "type": "module",
   "scripts": {
-    "start": "node index.js",
+    "start": "node index.cjs",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "vercel-start":"node index.js"
+    "vercel-start":"node index.cjs"
   },
   "keywords": [],
   "author": "",
