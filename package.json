@@ -2,12 +2,12 @@
   "name": "back",
   "version": "1.0.0",
   "description": "",
-  "main": "index.cjs",
+  "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "vercel-start":"node index.cjs"
+    "vercel-start":"node index.js"
   },
   "keywords": [],
   "author": "",
