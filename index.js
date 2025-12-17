@@ -119,8 +119,7 @@ app.post("/enqu", async (req, res) => {
 /* -------------------- EXPORT (ES MODULE) -------------------- */
 export default app;
 
-app.listen(process.env.PORT,()=>{
-    console.log("server started")
-})
+
+
 
 
